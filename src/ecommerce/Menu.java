@@ -1,12 +1,28 @@
 package ecommerce;
 
 import java.util.Scanner;
+import ecommerce.model.disco;
+import ecommerce.model.ecommerce;
+
 
 public class Menu {
 
 	public static void main(String[] args) {
 		// Menu loja ecommerce - projeto final java
 		
+		
+		
+		/* Teste da classe ecommerce
+		ecommerce c1 = new ecommerce("Legião Urbana", "Rock", "Vinil");
+		c1.visualizar();
+		
+		 (String titulo, String genero, String tipo, String estilo)
+		 * Teste da classe disco (herança)
+		 */
+		disco g1 = new disco("Silva", "MPB", "CD","Single");
+		g1.visualizar();
+		
+	
 		Scanner leia = new Scanner(System.in);
 		
 		int opcao;
@@ -22,8 +38,8 @@ public class Menu {
 			System.out.println("                                                     ");
 			System.out.println("            1 - Adicionar                            ");
 			System.out.println("            2 - Listar                               ");
-			System.out.println("            3 - Pesquisar  		                     ");
-			System.out.println("            4 - Atualizar  		                     ");
+			System.out.println("            3 - Pesquisar                            ");
+			System.out.println("            4 - Atualizar                            ");
 			System.out.println("            5 - Apagar                               ");
 			System.out.println("            0 - Sair                                 ");
 			System.out.println("                                                     ");
@@ -34,7 +50,7 @@ public class Menu {
 			opcao = leia.nextInt();
 			
 			if (opcao == 0) {
-				System.out.println("\nDisc Bento - Onde você disca e reserva seu disco!");
+				System.out.println("\nDisc Bento - Onde você disca e adquire seu disco!");
 				sobre();
 				leia.close();
 				System.exit(0);
