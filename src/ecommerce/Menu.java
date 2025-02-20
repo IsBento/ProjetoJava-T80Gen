@@ -20,10 +20,11 @@ public class Menu {
 			System.out.println("                                                     ");
 			System.out.println("*****************************************************");
 			System.out.println("                                                     ");
-			System.out.println("            1 - Adicionar discos e camisetas         ");
-			System.out.println("            2 - Listar itens                         ");
-			System.out.println("            3 - Gênero    		                     ");
-			System.out.println("            4 - Apagar item                          ");
+			System.out.println("            1 - Adicionar                            ");
+			System.out.println("            2 - Listar                               ");
+			System.out.println("            3 - Pesquisar  		                     ");
+			System.out.println("            4 - Atualizar  		                     ");
+			System.out.println("            5 - Apagar                               ");
 			System.out.println("            0 - Sair                                 ");
 			System.out.println("                                                     ");
 			System.out.println("*****************************************************");
@@ -41,22 +42,27 @@ public class Menu {
 			
 			switch (opcao) {
 			case 1:
-				System.out.println("Adicionar discos e camisetas");
+				System.out.println("Adicionar");
 				
 				break;
 				
 			case 2:
-				System.out.println("Listar itens");
+				System.out.println("Listar");
 				
 				break;
 				
 			case 3:
-				System.out.println("Gênero");
+				System.out.println("Pesquisar");
 				
 				break;
 			
 			case 4:
-				System.out.println("Apagar item");
+				System.out.println("Atualizar");
+				
+				break;
+				
+			case 5:
+				System.out.println("Apagar");
 				
 				break;
 				
