@@ -11,6 +11,7 @@ public class Menu {
 		
 		int opcao;
 		
+		// Entrada e saída de dados, laço condicional e laço de repetição
 		while (true) {
 
 			System.out.println("*****************************************************");
@@ -19,9 +20,10 @@ public class Menu {
 			System.out.println("                                                     ");
 			System.out.println("*****************************************************");
 			System.out.println("                                                     ");
-			System.out.println("            1 - Discos                               ");
-			System.out.println("            2 - Acessórios                           ");
-			System.out.println("            3 - Gênero                               ");
+			System.out.println("            1 - Adicionar discos e camisetas         ");
+			System.out.println("            2 - Listar itens                         ");
+			System.out.println("            3 - Gênero    		                     ");
+			System.out.println("            4 - Apagar item                          ");
 			System.out.println("            0 - Sair                                 ");
 			System.out.println("                                                     ");
 			System.out.println("*****************************************************");
@@ -39,12 +41,12 @@ public class Menu {
 			
 			switch (opcao) {
 			case 1:
-				System.out.println("Discos");
+				System.out.println("Adicionar discos e camisetas");
 				
 				break;
 				
 			case 2:
-				System.out.println("Acessórios");
+				System.out.println("Listar itens");
 				
 				break;
 				
@@ -53,6 +55,11 @@ public class Menu {
 				
 				break;
 			
+			case 4:
+				System.out.println("Apagar item");
+				
+				break;
+				
 			default:
 				System.out.println("Opção inválida!!!");
 			}
