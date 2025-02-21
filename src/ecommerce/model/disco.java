@@ -23,7 +23,7 @@ public class disco extends ecommerce {
 	@Override
 	public void visualizar() {
 		super.visualizar();
-		System.out.println("Esse lançamento é: " + this.disco);
+		System.out.println("Esse lançamento é um: " + this.disco);
 	}
 }
 

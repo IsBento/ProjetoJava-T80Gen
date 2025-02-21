@@ -51,7 +51,7 @@ public abstract class ecommerce {
 		System.out.println("***********************************************************");
 		System.out.println("Titulo: " + this.titulo);
 		System.out.println("Gênero: " + this.genero);
-		System.out.println("Tipo da Conta: " + this.tipo);
+		System.out.println("Tipo de disco: " + this.tipo);
 		}
   
 }

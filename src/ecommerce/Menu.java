@@ -1,6 +1,7 @@
 package ecommerce;
 
 import java.util.Scanner;
+import ecommerce.model.produzido;
 import ecommerce.model.disco;
 import ecommerce.model.ecommerce;
 
@@ -10,7 +11,8 @@ public class Menu {
 	public static void main(String[] args) {
 		// Menu loja ecommerce - projeto final java
 		
-		
+		Scanner leia = new Scanner(System.in);
+		int opcao;
 		
 		/* Teste da classe ecommerce
 		ecommerce c1 = new ecommerce("Legião Urbana", "Rock", "Vinil");
@@ -19,14 +21,17 @@ public class Menu {
 		 (String titulo, String genero, String tipo, String estilo)
 		 * Teste da classe disco (herança)
 		 */
-		disco g1 = new disco("Silva", "MPB", "CD","Single");
-		g1.visualizar();
+		disco g1 = new disco("Júpiter", "MPB", "CD","Single");
+		g1.visualizar();		
+		
+		/* Teste da classe produzido (herança)
+		 * (String titulo, String genero, String tipo, String produzido)
+		 */
+		produzido p1 = new produzido("Donnie Darko", "Ficção cientifíca", "DVD","Richard Kelly");
+		p1.visualizar();
 		
 	
-		Scanner leia = new Scanner(System.in);
-		
-		int opcao;
-		
+				
 		// Entrada e saída de dados, laço condicional e laço de repetição
 		while (true) {
 
