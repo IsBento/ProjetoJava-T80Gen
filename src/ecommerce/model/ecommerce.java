@@ -5,12 +5,13 @@ public abstract class ecommerce {
 	private String titulo;
 	private String genero;
 	private String tipo;
+	private int sku;
 	
-	
-	public ecommerce(String titulo, String genero, String tipo) {
+	public ecommerce(String titulo, String genero, String tipo, int sku) {
 		this.titulo = titulo;
 		this.genero = genero;
 		this.tipo = tipo;
+		this.sku = sku;
 	}
 
 
@@ -18,7 +19,7 @@ public abstract class ecommerce {
 		return titulo;
 	}
 
-
+	
 	public void setTitulo(String titulo) {
 		this.titulo = titulo;
 	}
@@ -28,7 +29,7 @@ public abstract class ecommerce {
 		return genero;
 	}
 
-
+	
 	public void setGenero(String genero) {
 		this.genero = genero;
 	}
@@ -42,9 +43,19 @@ public abstract class ecommerce {
 	public void setTipo(String tipo) {
 		this.tipo = tipo;
 	}
+
+	
+	public int getSku() {
+		return sku;
+	}
+
+
+	public void setSku(int sku) {
+		this.sku = sku;
+	}
+
 	
 	public void visualizar() {
-
 			
 		System.out.println("\n\n***********************************************************");
 		System.out.println("Dados do disco:");
@@ -52,6 +63,7 @@ public abstract class ecommerce {
 		System.out.println("Titulo: " + this.titulo);
 		System.out.println("Gênero: " + this.genero);
 		System.out.println("Tipo de disco: " + this.tipo);
+		System.out.println("Código do disco: " + this.sku);
 		}
   
 }
