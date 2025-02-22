@@ -1,4 +1,4 @@
-<img src="imagem.png" alt="Exemplo imagem">
+![imagem](https://github.com/user-attachments/assets/9c7ac4c9-8ce9-477e-aca7-0ba15f776b98)
 
 > Sistema computacional abordando o tema e-commerce.
 > O e-commerce dedicado será uma adição estratégica para expandir o alcance da empresa e aumentar sua presença online.
